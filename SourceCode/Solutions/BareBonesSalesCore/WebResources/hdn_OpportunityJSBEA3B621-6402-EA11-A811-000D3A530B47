@@ -1,0 +1,40 @@
+var oppSDK= new function() {
+	'use strict';
+	this.fcontext=  null;
+    
+    this.cancelOpp= function (context){
+		this.fcontext=context;
+        this.oForm("cancel");
+    };
+    	
+    this.winOpp = function(context){
+		this.fcontext=context;
+		this.oForm("won");
+	};
+	
+	this.oForm= function(text){
+		var context=this.fcontext;
+		var id=context.data.entity.getId().replace(/[{}]/g,"");
+        var ef = {};
+        ef["entityName"] = "hdn_opportunityclose";
+        ef["pageType"]= "entityrecord";        
+		ef["formType"]=2;
+		ef["cmdbar"]=false;		
+		var cf ={};
+		cf ["entityType"]= "hdn_opportunity"; 
+        cf ["id"]= id;
+        cf ["name"] = context.getAttribute("hdn_topic").getValue();
+		ef["createFromEntity"]=cf;
+        // pass in anyother parameters
+        var fp = {};
+        fp["hdn_closetype"] = text;
+		ef["data"]=fp;
+       		
+		var es = {};
+        es["entityName"] = "hdn_opportunity";
+        es["entityId"]=id;
+		
+		Xrm.Navigation.navigateTo(ef, { target: 2, position: 1, height:{value: 600, unit:"px"}, width: {value: 500, unit:"px"}}).then(
+            function(){Xrm.Navigation.openForm(es)});	
+    };    
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <g style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; stroke-miterlimit: 10;" transform="matrix(0.813122, 0, 0, 0.813122, 1.788721, 3.764258)">
+    <path d="m16.153 19c.315-1.892 1.111-3.68 2.272-5.24.989-1.329 1.575-2.975 1.575-4.76 0-4.719-4.086-8.484-8.914-7.949-3.517.389-6.442 3.171-6.986 6.667-.348 2.24.236 4.337 1.422 5.969 1.161 1.596 1.99 3.399 2.319 5.313"/>
+    <path d="m7.841 19c.101.591.159 1.191.159 1.801v.199c0 1.105.896 2 2 2h4c1.104 0 2-.895 2-2v-.203c0-.607.054-1.206.153-1.797z"/>
+  </g>
+  <line style="stroke: rgb(0, 0, 0);" x1="3.871" y1="10.492" x2="1.655" y2="10.492"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="4.752" y1="7.074" x2="3.177" y2="6.06"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="7.875" y1="3.978" x2="7.048" y2="2.616" bx:origin="3.21 -0.049"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="11.72" y1="3.257" x2="11.72" y2="1.789"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="21.664" y1="10.532" x2="19.448" y2="10.532" transform="matrix(-1, 0, 0, -1, 41.112, 21.063999)"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="20.008" y1="6.1" x2="18.433" y2="7.114" transform="matrix(-1, 0, 0, -1, 38.441, 13.214)"/>
+  <line style="stroke: rgb(0, 0, 0);" x1="11.869" y1="4.124" x2="11.042" y2="5.486" transform="matrix(-1, 0, 0, -1, 27.393344, 8.114524)" bx:origin="3.21 -0.049"/>
+</svg>

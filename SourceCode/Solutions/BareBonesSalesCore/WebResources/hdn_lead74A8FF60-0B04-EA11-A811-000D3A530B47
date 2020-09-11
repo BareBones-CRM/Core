@@ -1,0 +1,71 @@
+var leadSDK= new function() {
+	'use strict';
+	this.fcontext=  null;
+    
+    this.qualify= function (primaryControl){
+		this.fcontext=primaryControl;
+		var id = primaryControl.entityReference.id.slice(1,-1);
+		if (id===""){
+			id=primaryControl.getUrl().substr(primaryControl.getUrl().indexOf("&id=")+4, 36);
+		}
+		if (id!==""){
+			var req = new XMLHttpRequest();
+			req.open("POST", primaryControl.context.getClientUrl() + "/api/data/v9.1/hdn_leads("+id+")/Microsoft.Dynamics.CRM.hdn_QualifyLead", true);
+			req.setRequestHeader("OData-MaxVersion", "4.0");
+			req.setRequestHeader("OData-Version", "4.0");
+			req.setRequestHeader("Accept", "application/json");
+			req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+			req.onreadystatechange = function() {
+				if (this.readyState === 4) {
+					req.onreadystatechange = null;
+					if (this.status === 200) {
+						var results = JSON.parse(this.response);
+						var entityFormOptions = {};
+						entityFormOptions["entityName"] = "hdn_opportunity";
+						entityFormOptions["entityId"] = results.hdn_opportunityid;
+						Xrm.Utility.closeProgressIndicator();
+						Xrm.Navigation.openForm(entityFormOptions);
+						
+					} else {
+                        var result=JSON.parse(this.response);
+                        if (result && result.error && result.error.message){
+							Xrm.Utility.closeProgressIndicator();
+                            var alertStrings = { confirmButtonLabel: "Yes", text: result.error.message, title: "Unable to Qualify Lead" };
+                            var alertOptions = { height: 120, width: 260 };
+                            Xrm.Navigation.openAlertDialog(alertStrings,alertOptions);
+                        }
+					}
+				}
+			};
+			req.send();
+			Xrm.Utility.showProgressIndicator("Processing");
+		}
+	};
+
+
+	this.disqualify= function(primaryControl, statuscode){
+		this.fcontext=primaryControl;
+		var leadObj = null;
+		try {
+			var id = primaryControl.entityReference.id.slice(1,-1);       
+			if (id===""){
+				id=primaryControl.getUrl().substr(primaryControl.getUrl().indexOf("&id=")+4, 36);
+			}
+			if (id!==""){
+				// create the contact object
+				leadObj = new Object();
+				leadObj.statecode = 1;
+				leadObj.statuscode = statuscode;
+				Xrm.WebApi.updateRecord("hdn_lead", id, leadObj).then(function (result) {
+					refreshForm();
+				});
+			}
+		} catch (e) {	
+		}
+	};
+}
+
+var refreshForm= function(){
+	'use strict';
+    leadSDK.fcontext.ui.refresh();
+}

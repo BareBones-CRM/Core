@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg enable-background="new 0 0 24 24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <g style="fill:none;stroke:#000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10">
+    <path d="m5 1h-2c-1.105 0-2 .895-2 2v6c0 2.209 1.791 4 4 4"/>
+    <path d="m19 1h2c1.105 0 2 .895 2 2v6c0 2.209-1.791 4-4 4"/>
+    <path d="m14 23v-5.294c2.891-.861 5-3.536 5-6.706v-10h-14v10c0 3.17 2.109 5.845 5 6.706v5.294"/>
+    <path d="m12 5v3" style="stroke: rgb(96, 250, 0);"/>
+    <path d="m9.147 7.073 2.853.927" style="stroke: rgb(96, 250, 0);"/>
+    <path d="m10.237 10.427 1.763-2.427" style="stroke: rgb(96, 250, 0);"/>
+    <path d="m13.763 10.427-1.763-2.427" style="stroke: rgb(96, 250, 0);"/>
+    <path d="m14.853 7.073-2.853.927" style="stroke: rgb(96, 250, 0);"/>
+    <path d="m8 23h8"/>
+  </g>
+</svg>

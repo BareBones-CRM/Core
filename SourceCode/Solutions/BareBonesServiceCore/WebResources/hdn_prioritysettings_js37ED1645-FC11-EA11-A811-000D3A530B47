@@ -1,0 +1,20 @@
+var prioritySettingSDK= new function() {
+	'use strict';
+	this.fcontext=  null;   
+
+        this.pageLoad= function (context){
+		var formContext=context.getFormContext();
+		if (formContext.ui.getFormType()===1){
+			formContext.getControl("hdn_priority").setDisabled(false);
+		}
+		else {
+			formContext.getControl("hdn_priority").setDisabled(true);
+		}
+	};
+
+       this.prioritySelected= function (context){
+		var formContext=context.getFormContext();
+                var text=formContext.getAttribute("hdn_priority").getText();
+                formContext.getAttribute("hdn_name").setValue(text);
+	};
+}

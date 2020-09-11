@@ -1,0 +1,129 @@
+<ImportExportXml version="9.1.0.21941" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>BareBonesServiceCore</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="BareBones - Service Core" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>barebonescrm</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="BareBones CRM" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description description="Barebones CRM is a simplified Open Source CRM solution for Microsoft's Power Platform." languagecode="1033" />
+      </Descriptions>
+      <EMailAddress>hello@barebonescrm.com</EMailAddress>
+      <SupportingWebsiteUrl>https://www.barebonescrm.com</SupportingWebsiteUrl>
+      <CustomizationPrefix>hdn</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>75224</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="hdn_case" behavior="0" />
+      <RootComponent type="1" schemaName="hdn_caseresolution" behavior="0" />
+      <RootComponent type="1" schemaName="hdn_casetype" behavior="0" />
+      <RootComponent type="1" schemaName="hdn_prioritysetting" behavior="0" />
+      <RootComponent type="1" schemaName="hdn_timelinepost" behavior="0" />
+      <RootComponent type="9" schemaName="hdn_casequerytype" behavior="0" />
+      <RootComponent type="9" schemaName="hdn_origin" behavior="0" />
+      <RootComponent type="9" schemaName="hdn_priority" behavior="0" />
+      <RootComponent type="9" schemaName="hdn_resolutiontype" behavior="0" />
+      <RootComponent type="20" id="{922c39e5-b901-ea11-a811-000d3a530b47}" behavior="0" />
+      <RootComponent type="29" id="{9453c134-f605-ea11-a811-000d3a530b47}" behavior="0" />
+      <RootComponent type="60" id="{06db91b3-3c06-ea11-a811-000d3a530b47}" behavior="0" />
+      <RootComponent type="60" id="{0c5ecfb6-610d-415e-bc73-bf1f72ee8e5f}" behavior="0" />
+      <RootComponent type="60" id="{2ca53728-5d1f-4beb-a1b9-219d86e05050}" behavior="0" />
+      <RootComponent type="60" id="{a5e1e35c-ca19-4fd4-b24b-ce3833414012}" behavior="0" />
+      <RootComponent type="60" id="{a8258c27-667c-4b96-a1b8-847e40f9f916}" behavior="0" />
+      <RootComponent type="60" id="{f6317282-795a-ea11-a811-000d3ab95873}" behavior="0" />
+      <RootComponent type="61" schemaName="hdn_CaseTypeIcon" behavior="0" />
+      <RootComponent type="61" schemaName="hdn_case_js" behavior="0" />
+      <RootComponent type="61" schemaName="hdn_prioritysettings_js" behavior="0" />
+      <RootComponent type="61" schemaName="hdn_prioritysetting_icom" behavior="0" />
+      <RootComponent type="61" schemaName="hdn_wrench" behavior="0" />
+      <RootComponent type="61" schemaName="hdn_wrenchCancel" behavior="0" />
+      <RootComponent type="61" schemaName="hdn_wrenchOk" behavior="0" />
+      <RootComponent type="91" id="{a7c5d7b2-fd33-4ca3-b45a-0293e2bf1436}" schemaName="BareBonesService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8c6a8681b3a06057" behavior="0" />
+      <RootComponent type="92" id="{34907dbf-fa11-ea11-a811-000d3a5303f9}" behavior="0" />
+      <RootComponent type="92" id="{77fba0ed-3603-ea11-a811-000d3a5303f9}" behavior="0" />
+      <RootComponent type="92" id="{bc53f3cc-fa11-ea11-a811-000d3a5303f9}" behavior="0" />
+      <RootComponent type="92" id="{cad7ad0e-3703-ea11-a811-000d3a5303f9}" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="60" displayName="contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Case" id="{2ca53728-5d1f-4beb-a1b9-219d86e05050}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="2" type="60" displayName="account card" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Case" id="{2ca53728-5d1f-4beb-a1b9-219d86e05050}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="61" schemaName="hdn_History" displayName="hdn_History" solution="Active" />
+        <Dependent key="4" type="1" schemaName="hdn_timelinepost" displayName="TimeLine Post" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

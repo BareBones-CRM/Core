@@ -1,0 +1,19 @@
+var oppcloseSDK= new function() {
+	'use strict';
+	this.fcontext=  null;
+    
+    this.load= function (context){
+		var fc= context.getFormContext();
+		var a=fc.getControl("hdn_closetype").getAttribute().getValue();
+		var opset=fc.getControl("hdn_closurereason");		
+		if (a==="won"){		
+			opset.removeOption(752240000);
+			opset.removeOption(752240001);
+			opset.removeOption(752240002);
+                        opset.getAttribute().setValue(752240003);
+		}
+		if (a==="cancel"){
+			opset.removeOption(752240003);
+		}
+};
+}

@@ -1,0 +1,398 @@
+<ImportExportXml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Entities></Entities>
+  <Roles></Roles>
+  <Workflows></Workflows>
+  <FieldSecurityProfiles></FieldSecurityProfiles>
+  <Templates />
+  <RibbonDiffXml>
+    <CustomActions />
+    <Templates>
+      <RibbonTemplates Id="Mscrm.Templates"></RibbonTemplates>
+    </Templates>
+    <CommandDefinitions />
+    <RuleDefinitions>
+      <TabDisplayRules />
+      <DisplayRules />
+      <EnableRules />
+    </RuleDefinitions>
+    <LocLabels />
+  </RibbonDiffXml>
+  <EntityMaps />
+  <EntityRelationships />
+  <OrganizationSettings />
+  <optionsets />
+  <Dashboards>
+    <Dashboard>
+      <LocalizedNames>
+        <LocalizedName description="Customer Service Representative" languagecode="1033" />
+      </LocalizedNames>
+      <FormId>{06db91b3-3c06-ea11-a811-000d3a530b47}</FormId>
+      <IsCustomizable>1</IsCustomizable>
+      <IsDefault>0</IsDefault>
+      <FormXml>
+        <forms type="dashboard">
+          <form>
+            <tabs>
+              <tab showlabel="false" verticallayout="true" id="{835fdf0f-983b-4883-a036-d72e1e77a3ac}">
+                <labels>
+                  <label description="Tab" languagecode="1033" />
+                </labels>
+                <columns>
+                  <column width="100%">
+                    <sections>
+                      <section showlabel="false" showbar="false" columns="111" id="{29b6d035-1807-4138-b17c-d6d0defb8b57}">
+                        <labels>
+                          <label description="Section" languagecode="1033" />
+                        </labels>
+                        <rows>
+                          <row>
+                            <cell colspan="1" rowspan="12" showlabel="false" id="{9d86b40f-5491-4fd9-9aec-86b4bb97cd25}" auto="false">
+                              <labels>
+                                <label description="Case" languagecode="1033" />
+                              </labels>
+                              <control id="Component5da1d91" uniqueid="{c6a4be63-0e54-e1ea-a8a6-3d8526816ca7}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>hdn_case</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{E5495B3D-DDFF-E911-A811-000D3A530B47}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{D683ADE6-3206-EA11-A811-000D3A530B47}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" id="{6a683774-3bef-4231-a427-9ce073cac77f}" auto="false">
+                              <labels>
+                                <label description="Case" languagecode="1033" />
+                              </labels>
+                              <control id="Component7c2a73f" uniqueid="{ec9290bd-1e64-9687-4126-87575899cdbe}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>hdn_case</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{E5495B3D-DDFF-E911-A811-000D3A530B47}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{129D32D5-3206-EA11-A811-000D3A530B47}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell id="{0b417db9-b97d-c2ec-2781-edcb10ab0a7d}" showlabel="true" colspan="1" availableforphone="false" auto="false" rowspan="12" locklevel="0">
+                              <labels>
+                                <label description="Timeline" languagecode="1033" />
+                              </labels>
+                              <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" uniqueid="{78e41c6e-dcb0-d4ca-d078-074eabcae9be}" disabled="false">
+                                <parameters>
+                                  <UClientUniqueName>Timeline</UClientUniqueName>
+                                  <UClientModules>Activities</UClientModules>
+                                  <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                                  <UClientShowFilterPane>true</UClientShowFilterPane>
+                                  <UClientOrderBy>descending</UClientOrderBy>
+                                  <UClientRecordPerPage>10</UClientRecordPerPage>
+                                  <UClientSortActivitiesByValue>createdon</UClientSortActivitiesByValue>
+                                  <UClientDisplayActivityHeaderUsing>fieldlabels</UClientDisplayActivityHeaderUsing>
+                                  <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                                  <UClientDisplayActivityUsing>cardform</UClientDisplayActivityUsing>
+                                  <UClientActivityCardMap>appointment:4201:,email:4202:e5538bb9-77ec-4d24-bc5f-8cb2d825f664,phonecall:4210:983dc188-2a05-4cfe-b907-4fbfae8c21f7,task:4212:5e9725e4-5449-4363-8c1c-5ae71767af34,msfp_surveyinvite:10011:,msfp_surveyresponse:10012:,hdn_timelinepost:10041:6912c232-337b-438f-8780-24c0f41deef6</UClientActivityCardMap>
+                                  <UClientActivities>appointment,email,phonecall,task,hdn_timelinepost</UClientActivities>
+                                </parameters>
+                              </control>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row>
+                            <cell colspan="1" rowspan="12" showlabel="false" id="{fcc7a698-af32-4716-ba66-f7733ce04919}" auto="false">
+                              <labels>
+                                <label description="Case" languagecode="1033" />
+                              </labels>
+                              <control id="Component9fafc9d" uniqueid="{480ae827-1ba5-3331-5ccb-8e676eb243a8}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>hdn_case</TargetEntityType>
+                                  <ChartGridMode>Chart</ChartGridMode>
+                                  <EnableQuickFind>false</EnableQuickFind>
+                                  <EnableViewPicker>false</EnableViewPicker>
+                                  <EnableJumpBar>false</EnableJumpBar>
+                                  <RecordsPerPage>10</RecordsPerPage>
+                                  <HeaderColorCode />
+                                  <ViewId>{E28658BF-3606-EA11-A811-000D3A530B47}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{3E29521B-3706-EA11-A811-000D3A530B47}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="true" id="{110f8b00-417a-4700-9db7-6954f06d77a0}" auto="false">
+                              <labels>
+                                <label description="My Activities" languagecode="1033" />
+                                <label description="Aktivitäten" languagecode="1031" />
+                              </labels>
+                              <control id="Component4fe438f" uniqueid="{48126423-eb31-a1bd-0e8d-8c70d5ac2d36}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                                <parameters>
+                                  <TargetEntityType>activitypointer</TargetEntityType>
+                                  <ChartGridMode>Grid</ChartGridMode>
+                                  <EnableQuickFind>true</EnableQuickFind>
+                                  <EnableViewPicker>true</EnableViewPicker>
+                                  <EnableJumpBar>true</EnableJumpBar>
+                                  <RecordsPerPage>8</RecordsPerPage>
+                                  <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                                  <ViewId>{00000000-0000-0000-00AA-000010001899}</ViewId>
+                                  <IsUserView>false</IsUserView>
+                                  <ViewIds />
+                                  <AutoExpand>Fixed</AutoExpand>
+                                  <VisualizationId>{EDF35649-5293-DE11-97D4-00155DA3B01E}</VisualizationId>
+                                  <IsUserChart>false</IsUserChart>
+                                  <EnableChartPicker>false</EnableChartPicker>
+                                  <RelationshipName />
+                                </parameters>
+                              </control>
+                            </cell>
+                            <cell colspan="1" rowspan="12" showlabel="false" ispreviewcell="true" id="{48b8c98a-dc5c-424c-8874-a52a6fe9e9ab}">
+                              <labels>
+                                <label description="" languagecode="1033" />
+                              </labels>
+                            </cell>
+                          </row>
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                          <row />
+                        </rows>
+                      </section>
+                    </sections>
+                  </column>
+                </columns>
+              </tab>
+            </tabs>
+            <controlDescriptions />
+          </form>
+        </forms>
+      </FormXml>
+      <IntroducedVersion>0.10</IntroducedVersion>
+      <IsTabletEnabled>0</IsTabletEnabled>
+    </Dashboard>
+  </Dashboards>
+  <WebResources>
+    <WebResource>
+      <WebResourceId>{2ada44ad-6005-ea11-a811-000d3a530b47}</WebResourceId>
+      <Name>hdn_barebonesCRMLLogo</Name>
+      <DisplayName>Barebones CRM Logo</DisplayName>
+      <WebResourceType>5</WebResourceType>
+      <IntroducedVersion>0.8.0.0</IntroducedVersion>
+      <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+      <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+      <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+      <IsCustomizable>1</IsCustomizable>
+      <CanBeDeleted>1</CanBeDeleted>
+      <IsHidden>0</IsHidden>
+      <FileName>/WebResources/hdn_barebonesCRMLLogo2ADA44AD-6005-EA11-A811-000D3A530B47</FileName>
+    </WebResource>
+  </WebResources>
+  <CustomControls />
+  <AppModuleSiteMaps>
+    <AppModuleSiteMap>
+      <SiteMapUniqueName>hdn_BareBonesCRM</SiteMapUniqueName>
+      <SiteMap IntroducedVersion="7.0.0.0">
+        <Area Id="New_Area" ResourceId="SitemapDesigner.NewArea" DescriptionResourceId="SitemapDesigner.NewArea" ShowGroups="true" IntroducedVersion="7.0.0.0">
+          <Titles>
+            <Title LCID="1033" Title="Bare Bones CRM" />
+          </Titles>
+          <Group Id="New_Group" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Work" />
+            </Titles>
+            <SubArea Id="New_SubArea" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="06db91b3-3c06-ea11-a811-000d3a530b47" IntroducedVersion="7.0.0.0" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+              <Titles>
+                <Title LCID="1033" Title="Dashboards" />
+              </Titles>
+            </SubArea>
+            <SubArea Id="NewSubArea_16fcd1b1" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="activitypointer" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+          <Group Id="NewGroup_693eaeb9" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Customers" />
+            </Titles>
+            <SubArea Id="NewSubArea_ca84ef5f" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+            <SubArea Id="NewSubArea_9bdbda27" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+          <Group Id="NewGroup_44630cc" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Sales" />
+            </Titles>
+            <SubArea Id="NewSubArea_2878093b" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hdn_lead" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+            <SubArea Id="NewSubArea_fd762cfd" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hdn_opportunity" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+          <Group Id="NewGroup_6d5e4263" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Customer Service" />
+            </Titles>
+            <SubArea Id="NewSubArea_d59947eb" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="hdn_case" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+        </Area>
+        <Area Id="NewArea_25177a5e" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+          <Titles>
+            <Title LCID="1033" Title="Administration" />
+          </Titles>
+          <Group Id="NewGroup_fc166eea" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Customer Service" />
+            </Titles>
+            <SubArea Id="NewSubArea_37c97666" Entity="hdn_casetype" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+            <SubArea Id="NewSubArea_beb26361" Entity="hdn_prioritysetting" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+          <Group Id="NewGroup_527fd752" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="Sales and Marketing" />
+            </Titles>
+            <SubArea Id="NewSubArea_72348816" Entity="hdn_campaign" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+          </Group>
+          <Group Id="NewGroup_1ac6f7cc" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+            <Titles>
+              <Title LCID="1033" Title="System" />
+            </Titles>
+            <SubArea Id="NewSubArea_59f72ab" Entity="hdn_timelineposttemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+              <Titles>
+                <Title LCID="1033" Title="TimeLine Templates" />
+              </Titles>
+            </SubArea>
+          </Group>
+        </Area>
+      </SiteMap>
+      <LocalizedNames>
+        <LocalizedName description="Bare Bones CRM" languagecode="1033" />
+      </LocalizedNames>
+    </AppModuleSiteMap>
+  </AppModuleSiteMaps>
+  <AppModules>
+    <AppModule>
+      <UniqueName>hdn_BareBonesCRM</UniqueName>
+      <IntroducedVersion>0.8.0.0</IntroducedVersion>
+      <WebResourceId>2ada44ad-6005-ea11-a811-000d3a530b47</WebResourceId>
+      <OptimizedFor></OptimizedFor>
+      <FormFactor>1</FormFactor>
+      <ClientType>4</ClientType>
+      <NavigationType>0</NavigationType>
+      <AppModuleComponents>
+        <AppModuleComponent type="62" schemaName="hdn_BareBonesCRM" />
+        <AppModuleComponent type="60" id="{06db91b3-3c06-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="60" id="{e65d0ae3-b307-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="1" schemaName="account" />
+        <AppModuleComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <AppModuleComponent type="60" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+        <AppModuleComponent type="60" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+        <AppModuleComponent type="60" id="{69cff312-cfb6-4289-9631-249ab85d2c62}" />
+        <AppModuleComponent type="60" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+        <AppModuleComponent type="60" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+        <AppModuleComponent type="60" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+        <AppModuleComponent type="60" id="{2205c86d-ed88-4a2f-a447-3b86a8781f2e}" />
+        <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001002}" />
+        <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001001}" />
+        <AppModuleComponent type="59" id="{74a622c0-5193-de11-97d4-00155da3b01e}" />
+        <AppModuleComponent type="1" schemaName="actioncard" />
+        <AppModuleComponent type="26" id="{92afd454-0f2e-4397-a1c8-05e37c6ad699}" />
+        <AppModuleComponent type="1" schemaName="activitypointer" />
+        <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001899}" />
+        <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001900}" />
+        <AppModuleComponent type="59" id="{edf35649-5293-de11-97d4-00155da3b01e}" />
+        <AppModuleComponent type="1" schemaName="appointment" />
+        <AppModuleComponent type="60" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+        <AppModuleComponent type="60" id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+        <AppModuleComponent type="60" id="{5895e983-598b-4834-80f9-68a4e9f4f744}" />
+        <AppModuleComponent type="60" id="{4cd45c5d-29b3-48d3-997a-2bc3f8beeba8}" />
+        <AppModuleComponent type="60" id="{f5af0c79-97db-4c3f-8d7e-62b53d9062d4}" />
+        <AppModuleComponent type="1" schemaName="activitymimeattachment" />
+        <AppModuleComponent type="26" id="{270de234-e469-4806-9c7e-8d94901cd521}" />
+        <AppModuleComponent type="1" schemaName="hdn_campaign" />
+        <AppModuleComponent type="1" schemaName="hdn_case" />
+        <AppModuleComponent type="26" id="{b940131c-994e-4d1b-94bd-a670c46c7ea1}" />
+        <AppModuleComponent type="26" id="{e5495b3d-ddff-e911-a811-000d3a530b47}" />
+        <AppModuleComponent type="26" id="{e28658bf-3606-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="59" id="{d683ade6-3206-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="59" id="{129d32d5-3206-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="59" id="{3e29521b-3706-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="1" schemaName="hdn_casetype" />
+        <AppModuleComponent type="1" schemaName="contact" />
+        <AppModuleComponent type="60" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <AppModuleComponent type="60" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+        <AppModuleComponent type="26" id="{73bc2d9b-4e0e-424c-8839-ed59d6817e3a}" />
+        <AppModuleComponent type="26" id="{a2d479c5-53e3-4c69-addd-802327e67a0d}" />
+        <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001003}" />
+        <AppModuleComponent type="1" schemaName="email" />
+        <AppModuleComponent type="1" schemaName="hdn_lead" />
+        <AppModuleComponent type="26" id="{eb1717e9-bfa3-4406-8352-22a51a70ed58}" />
+        <AppModuleComponent type="59" id="{1502fe80-b207-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="1" schemaName="letter" />
+        <AppModuleComponent type="1" schemaName="hdn_opportunity" />
+        <AppModuleComponent type="26" id="{db79b64b-8836-4f55-acff-bb5b5f647118}" />
+        <AppModuleComponent type="26" id="{c57fb23b-9307-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="26" id="{a16bfd75-a107-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="26" id="{079c2dab-a107-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="26" id="{05c5f0d1-a107-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="26" id="{d88058de-a107-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="26" id="{caea5f06-3dba-4e27-bdd4-7edd9c4b30aa}" />
+        <AppModuleComponent type="26" id="{e2a50147-edee-479f-9d5c-cf87beda03ea}" />
+        <AppModuleComponent type="26" id="{059f8fef-f0be-47be-a355-0e82a4084aa9}" />
+        <AppModuleComponent type="59" id="{d3277625-a207-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="59" id="{e8faa4e8-a807-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="59" id="{117f85b3-a807-ea11-a811-000d3a530b47}" />
+        <AppModuleComponent type="1" schemaName="phonecall" />
+        <AppModuleComponent type="1" schemaName="hdn_prioritysetting" />
+        <AppModuleComponent type="26" id="{3bd4918e-a2aa-4110-8903-7429ec8f31b7}" />
+        <AppModuleComponent type="1" schemaName="socialprofile" />
+        <AppModuleComponent type="26" id="{7394679c-9224-4e61-b14c-219aaa7dd941}" />
+        <AppModuleComponent type="1" schemaName="task" />
+        <AppModuleComponent type="1" schemaName="hdn_timelinepost" />
+        <AppModuleComponent type="1" schemaName="hdn_timelineposttemplate" />
+      </AppModuleComponents>
+      <AppModuleRoleMaps>
+        <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </AppModuleRoleMaps>
+      <LocalizedNames>
+        <LocalizedName description="Bare Bones CRM" languagecode="1033" />
+      </LocalizedNames>
+    </AppModule>
+  </AppModules>
+  <EntityDataProviders />
+  <Languages>
+    <Language>1033</Language>
+    <Language>1031</Language>
+  </Languages>
+</ImportExportXml>

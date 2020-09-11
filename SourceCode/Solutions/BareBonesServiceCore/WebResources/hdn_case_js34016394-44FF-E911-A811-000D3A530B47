@@ -1,0 +1,54 @@
+var caseSDK= new function() {
+    'use strict';
+    this.fcontext=  null;
+    this.cancelCase= function (context){
+        this.fcontext=context;
+        var confirmStrings = { text: "Do you want to cancel this case?.", title: "Confirmation Dialog" };
+        var confirmOptions = { height: 200, width: 460 };
+        Xrm.Navigation.openConfirmDialog(confirmStrings, confirmOptions).then(
+        function (success) {
+        if (success.confirmed){
+            setCancelStatus();
+        }
+        });
+    };
+    
+    this.resolveCase = function(context){
+        this.fcontext=context;
+        var id=context.data.entity.getId().replace(/[{}]/g,"");
+        var ef = {};
+		ef["pageType"]= "entityrecord";
+        ef["entityName"] = "hdn_caseresolution";
+        
+		ef["formType"]=2;
+		ef["cmdbar"]=false;
+        var createFrom ={};
+		createFrom ["entityType"]= "hdn_case";
+        createFrom ["id"]= id;
+		createFrom ["name"] = context.getAttribute("hdn_subject").getValue();
+		ef["createFromEntity"]=createFrom;
+
+        var es = {};
+		
+        es["entityName"] = "hdn_case";
+        es["entityId"]=id;
+		
+		
+		Xrm.Navigation.navigateTo(ef, { target: 2, position: 1, height:{value: 600, unit:"px"}, width: {value: 500, unit:"px"}}).then(
+            function(){Xrm.Navigation.openForm(es)});	
+    };
+    
+    this.changeParentType = function(context){
+		context.getFormContext().getAttribute("hdn_childcasetype").setValue(null);
+	};
+    
+}
+
+
+
+var setCancelStatus= function(){
+	'use strict';
+        caseSDK.fcontext.data.entity.attributes.getByName("statuscode").setValue(752240002);
+        caseSDK.fcontext.data.entity.attributes.getByName("statecode").setValue(1);
+        caseSDK.fcontext.data.save();
+    };
