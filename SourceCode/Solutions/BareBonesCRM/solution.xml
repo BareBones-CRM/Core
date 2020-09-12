@@ -115,71 +115,63 @@
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="9" type="1" schemaName="hdn_timelinepost" displayName="TimeLine Post" solution="Active" />
-        <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
-      </MissingDependency>
-      <MissingDependency>
         <Required key="0" type="1" schemaName="hdn_case" displayName="Case" solution="Active" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="1" schemaName="hdn_opportunity" displayName="Opportunity" solution="Active" />
+        <Required key="9" type="1" schemaName="hdn_opportunity" displayName="Opportunity" solution="Active" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="1" schemaName="hdn_casetype" displayName="Case Type" solution="Active" />
+        <Required key="10" type="1" schemaName="hdn_casetype" displayName="Case Type" solution="Active" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="1" schemaName="hdn_campaign" displayName="Campaign" solution="Active" />
+        <Required key="11" type="1" schemaName="hdn_campaign" displayName="Campaign" solution="Active" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="13" type="1" schemaName="hdn_timelineposttemplate" displayName="TimeLine Post Template" solution="Active" />
+        <Required key="12" type="1" schemaName="hdn_lead" displayName="Lead" solution="Active" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="1" schemaName="hdn_lead" displayName="Lead" solution="Active" />
+        <Required key="13" type="26" schemaName="Opportunity Lookup View" displayName="Opportunity Lookup View" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{059f8fef-f0be-47be-a355-0e82a4084aa9}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="15" type="26" schemaName="Opportunity Lookup View" displayName="Opportunity Lookup View" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{059f8fef-f0be-47be-a355-0e82a4084aa9}" />
+        <Required key="14" type="26" schemaName="Opportunity Associated View" displayName="Opportunity Associated View" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{e2a50147-edee-479f-9d5c-cf87beda03ea}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="26" schemaName="Opportunity Associated View" displayName="Opportunity Associated View" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{e2a50147-edee-479f-9d5c-cf87beda03ea}" />
+        <Required key="15" type="26" schemaName="Active Opportunities" displayName="Active Opportunities" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{db79b64b-8836-4f55-acff-bb5b5f647118}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="26" schemaName="Active Opportunities" displayName="Active Opportunities" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{db79b64b-8836-4f55-acff-bb5b5f647118}" />
+        <Required key="16" type="26" schemaName="My Active Opportunities" displayName="My Active Opportunities" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{c57fb23b-9307-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="18" type="26" schemaName="My Active Opportunities" displayName="My Active Opportunities" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{c57fb23b-9307-ea11-a811-000d3a530b47}" />
+        <Required key="17" type="26" schemaName="Opportunity Advanced Find View" displayName="Opportunity Advanced Find View" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{caea5f06-3dba-4e27-bdd4-7edd9c4b30aa}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="19" type="26" schemaName="Opportunity Advanced Find View" displayName="Opportunity Advanced Find View" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{caea5f06-3dba-4e27-bdd4-7edd9c4b30aa}" />
+        <Required key="18" type="26" schemaName="My Closed Opportunities This Fiscal Year" displayName="My Closed Opportunities This Fiscal Year" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{a16bfd75-a107-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="20" type="26" schemaName="My Closed Opportunities This Fiscal Year" displayName="My Closed Opportunities This Fiscal Year" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{a16bfd75-a107-ea11-a811-000d3a530b47}" />
+        <Required key="19" type="26" schemaName="Active PrioritySettings" displayName="Active PrioritySettings" parentSchemaName="hdn_prioritysetting" parentDisplayName="Priority Setting" solution="Active" id="{3bd4918e-a2aa-4110-8903-7429ec8f31b7}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="21" type="26" schemaName="Active PrioritySettings" displayName="Active PrioritySettings" parentSchemaName="hdn_prioritysetting" parentDisplayName="Priority Setting" solution="Active" id="{3bd4918e-a2aa-4110-8903-7429ec8f31b7}" />
+        <Required key="20" type="26" schemaName="Opportunities Closing Next 30 Days" displayName="Opportunities Closing Next 30 Days" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{079c2dab-a107-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="22" type="26" schemaName="Opportunities Closing Next 30 Days" displayName="Opportunities Closing Next 30 Days" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{079c2dab-a107-ea11-a811-000d3a530b47}" />
+        <Required key="21" type="26" schemaName="Opportunities Opened Last Week" displayName="Opportunities Opened Last Week" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{05c5f0d1-a107-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="23" type="26" schemaName="Opportunities Opened Last Week" displayName="Opportunities Opened Last Week" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{05c5f0d1-a107-ea11-a811-000d3a530b47}" />
-        <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="24" type="26" schemaName="Active Leads" displayName="Active Leads" parentSchemaName="hdn_lead" parentDisplayName="Lead" solution="Active" id="{eb1717e9-bfa3-4406-8352-22a51a70ed58}" />
+        <Required key="22" type="26" schemaName="Active Leads" displayName="Active Leads" parentSchemaName="hdn_lead" parentDisplayName="Lead" solution="Active" id="{eb1717e9-bfa3-4406-8352-22a51a70ed58}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
@@ -187,11 +179,11 @@
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="25" type="26" schemaName="Opportunities Opened This Week" displayName="Opportunities Opened This Week" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{d88058de-a107-ea11-a811-000d3a530b47}" />
+        <Required key="23" type="26" schemaName="Opportunities Opened This Week" displayName="Opportunities Opened This Week" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{d88058de-a107-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="26" type="26" schemaName="Case Associated View" displayName="Case Associated View" parentSchemaName="hdn_case" parentDisplayName="Case" solution="Active" id="{b940131c-994e-4d1b-94bd-a670c46c7ea1}" />
+        <Required key="24" type="26" schemaName="Case Associated View" displayName="Case Associated View" parentSchemaName="hdn_case" parentDisplayName="Case" solution="Active" id="{b940131c-994e-4d1b-94bd-a670c46c7ea1}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
@@ -203,19 +195,19 @@
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="27" type="59" schemaName="Leads By Source Campaign" displayName="Leads By Source Campaign" parentSchemaName="hdn_lead" parentDisplayName="Lead" solution="Active" id="{1502fe80-b207-ea11-a811-000d3a530b47}" />
+        <Required key="25" type="59" schemaName="Leads By Source Campaign" displayName="Leads By Source Campaign" parentSchemaName="hdn_lead" parentDisplayName="Lead" solution="Active" id="{1502fe80-b207-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="28" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{d3277625-a207-ea11-a811-000d3a530b47}" />
+        <Required key="26" type="59" schemaName="Sales Pipeline" displayName="Sales Pipeline" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{d3277625-a207-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="29" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{e8faa4e8-a807-ea11-a811-000d3a530b47}" />
+        <Required key="27" type="59" schemaName="Top Customers" displayName="Top Customers" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{e8faa4e8-a807-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="30" type="59" schemaName="Top Opportunities" displayName="Top Opportunities" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{117f85b3-a807-ea11-a811-000d3a530b47}" />
+        <Required key="28" type="59" schemaName="Top Opportunities" displayName="Top Opportunities" parentSchemaName="hdn_opportunity" parentDisplayName="Opportunity" solution="Active" id="{117f85b3-a807-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
@@ -227,88 +219,84 @@
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="31" type="60" displayName="Account Reference Panel" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
+        <Required key="29" type="60" displayName="Account Reference Panel" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{098ae145-1567-41ec-8398-86dbaac70c9b}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="32" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Required key="30" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="60" displayName="Appointment for Interactive experience" parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+        <Required key="31" type="60" displayName="Appointment for Interactive experience" parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="60" displayName="Appointment quick create form." parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{5895e983-598b-4834-80f9-68a4e9f4f744}" />
+        <Required key="32" type="60" displayName="Appointment quick create form." parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{5895e983-598b-4834-80f9-68a4e9f4f744}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="35" type="60" displayName="Information" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+        <Required key="33" type="60" displayName="Information" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="36" type="60" displayName="Account Quick Create" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+        <Required key="34" type="60" displayName="Account Quick Create" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="37" type="60" displayName="Contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+        <Required key="35" type="60" displayName="Contact" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="38" type="60" displayName="Sales Activity Dashboard" solution="Active" id="{e65d0ae3-b307-ea11-a811-000d3a530b47}" />
+        <Required key="36" type="60" displayName="Sales Activity Dashboard" solution="Active" id="{e65d0ae3-b307-ea11-a811-000d3a530b47}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="39" type="60" displayName="Social Profiles" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{2205c86d-ed88-4a2f-a447-3b86a8781f2e}" />
+        <Required key="37" type="60" displayName="Social Profiles" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{2205c86d-ed88-4a2f-a447-3b86a8781f2e}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="40" type="60" displayName="Appointment" parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+        <Required key="38" type="60" displayName="Appointment" parentDisplayName="Appointment" solution="msdynce_Activities (9.0.1.2033)" id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="41" type="60" displayName="Account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="39" type="60" displayName="Account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="42" type="60" displayName="Account Hierarchy Tile Form" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{69cff312-cfb6-4289-9631-249ab85d2c62}" />
+        <Required key="40" type="60" displayName="Account Hierarchy Tile Form" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{69cff312-cfb6-4289-9631-249ab85d2c62}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="43" type="60" displayName="Account for Interactive experience" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+        <Required key="41" type="60" displayName="Account for Interactive experience" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="44" type="60" displayName="account card" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+        <Required key="42" type="60" displayName="account card" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
         <Dependent key="8" type="80" schemaName="hdn_BareBonesCRM" displayName="Bare Bones CRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="11" type="1" schemaName="hdn_casetype" displayName="Case Type" solution="Active" />
-        <Dependent key="45" type="62" schemaName="hdn_BareBonesCRM" />
+        <Required key="10" type="1" schemaName="hdn_casetype" displayName="Case Type" solution="Active" />
+        <Dependent key="43" type="62" schemaName="hdn_BareBonesCRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="1" schemaName="hdn_campaign" displayName="Campaign" solution="Active" />
-        <Dependent key="45" type="62" schemaName="hdn_BareBonesCRM" />
+        <Required key="11" type="1" schemaName="hdn_campaign" displayName="Campaign" solution="Active" />
+        <Dependent key="43" type="62" schemaName="hdn_BareBonesCRM" />
       </MissingDependency>
       <MissingDependency>
         <Required key="0" type="1" schemaName="hdn_case" displayName="Case" solution="Active" />
-        <Dependent key="45" type="62" schemaName="hdn_BareBonesCRM" />
+        <Dependent key="43" type="62" schemaName="hdn_BareBonesCRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="14" type="1" schemaName="hdn_lead" displayName="Lead" solution="Active" />
-        <Dependent key="45" type="62" schemaName="hdn_BareBonesCRM" />
+        <Required key="12" type="1" schemaName="hdn_lead" displayName="Lead" solution="Active" />
+        <Dependent key="43" type="62" schemaName="hdn_BareBonesCRM" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="13" type="1" schemaName="hdn_timelineposttemplate" displayName="TimeLine Post Template" solution="Active" />
-        <Dependent key="45" type="62" schemaName="hdn_BareBonesCRM" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="10" type="1" schemaName="hdn_opportunity" displayName="Opportunity" solution="Active" />
-        <Dependent key="45" type="62" schemaName="hdn_BareBonesCRM" />
+        <Required key="9" type="1" schemaName="hdn_opportunity" displayName="Opportunity" solution="Active" />
+        <Dependent key="43" type="62" schemaName="hdn_BareBonesCRM" />
       </MissingDependency>
       <MissingDependency>
         <Required key="7" type="1" schemaName="hdn_prioritysetting" displayName="Priority Setting" solution="Active" />
-        <Dependent key="45" type="62" schemaName="hdn_BareBonesCRM" />
+        <Dependent key="43" type="62" schemaName="hdn_BareBonesCRM" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

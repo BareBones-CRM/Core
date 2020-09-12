@@ -283,16 +283,6 @@
             </Titles>
             <SubArea Id="NewSubArea_72348816" Entity="hdn_campaign" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
           </Group>
-          <Group Id="NewGroup_1ac6f7cc" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
-            <Titles>
-              <Title LCID="1033" Title="System" />
-            </Titles>
-            <SubArea Id="NewSubArea_59f72ab" Entity="hdn_timelineposttemplate" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
-              <Titles>
-                <Title LCID="1033" Title="TimeLine Templates" />
-              </Titles>
-            </SubArea>
-          </Group>
         </Area>
       </SiteMap>
       <LocalizedNames>
@@ -378,8 +368,6 @@
         <AppModuleComponent type="1" schemaName="socialprofile" />
         <AppModuleComponent type="26" id="{7394679c-9224-4e61-b14c-219aaa7dd941}" />
         <AppModuleComponent type="1" schemaName="task" />
-        <AppModuleComponent type="1" schemaName="hdn_timelinepost" />
-        <AppModuleComponent type="1" schemaName="hdn_timelineposttemplate" />
       </AppModuleComponents>
       <AppModuleRoleMaps>
         <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />

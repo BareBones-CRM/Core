@@ -85,7 +85,6 @@
       <RootComponent type="1" schemaName="hdn_caseresolution" behavior="0" />
       <RootComponent type="1" schemaName="hdn_casetype" behavior="0" />
       <RootComponent type="1" schemaName="hdn_prioritysetting" behavior="0" />
-      <RootComponent type="1" schemaName="hdn_timelinepost" behavior="0" />
       <RootComponent type="9" schemaName="hdn_casequerytype" behavior="0" />
       <RootComponent type="9" schemaName="hdn_origin" behavior="0" />
       <RootComponent type="9" schemaName="hdn_priority" behavior="0" />
@@ -119,10 +118,6 @@
       <MissingDependency>
         <Required key="2" type="60" displayName="account card" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
         <Dependent key="1" type="60" displayName="Information" parentDisplayName="Case" id="{2ca53728-5d1f-4beb-a1b9-219d86e05050}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="3" type="61" schemaName="hdn_History" displayName="hdn_History" solution="Active" />
-        <Dependent key="4" type="1" schemaName="hdn_timelinepost" displayName="TimeLine Post" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

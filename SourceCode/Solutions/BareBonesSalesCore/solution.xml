@@ -95,7 +95,6 @@
       <RootComponent type="60" id="{15103cc6-fac7-4ba0-acae-180f13906039}" behavior="0" />
       <RootComponent type="60" id="{4f898413-f921-414b-a9df-ae82fd1e6b42}" behavior="0" />
       <RootComponent type="60" id="{669d7ea9-7560-401a-a02f-76cd34c19c67}" behavior="0" />
-      <RootComponent type="60" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
       <RootComponent type="60" id="{d1cb4572-097e-47f9-abca-f11800113c75}" behavior="0" />
       <RootComponent type="60" id="{e65d0ae3-b307-ea11-a811-000d3a530b47}" behavior="0" />
       <RootComponent type="61" schemaName="hdn_campaignIcon" behavior="0" />
@@ -112,44 +111,16 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="hdn_case" displayName="Case" solution="Active" />
-        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="0" type="60" displayName="account card" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Opportunity" id="{669d7ea9-7560-401a-a02f-76cd34c19c67}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="10" schemaName="hdn_account_hdn_Case_Customer" displayName="hdn_account_hdn_Case_Customer" parentSchemaName="account" parentDisplayName="Account" solution="Active" />
-        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+        <Required key="2" type="60" displayName="contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
+        <Dependent key="1" type="60" displayName="Information" parentDisplayName="Opportunity" id="{669d7ea9-7560-401a-a02f-76cd34c19c67}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="26" schemaName="My Current Cases" displayName="My Current Cases" parentSchemaName="hdn_case" parentDisplayName="Case" solution="Active" id="{e5495b3d-ddff-e911-a811-000d3a530b47}" />
-        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="4" type="59" schemaName="Case Mix (By Case Type)" displayName="Case Mix (By Case Type)" parentSchemaName="hdn_case" parentDisplayName="Case" solution="Active" id="{d683ade6-3206-ea11-a811-000d3a530b47}" />
-        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="1" type="60" displayName="Account" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="5" type="60" displayName="account contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="6" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.21941)" />
-        <Dependent key="1" type="60" displayName="Account" parentDisplayName="Account" id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="7" type="60" displayName="account card" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b028db32-3619-48a5-ac51-cf3f947b0ef3}" />
-        <Dependent key="8" type="60" displayName="Information" parentDisplayName="Opportunity" id="{669d7ea9-7560-401a-a02f-76cd34c19c67}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="9" type="60" displayName="contact card" parentDisplayName="Contact" solution="msdynce_AppCommon (9.0.4.0066)" id="{707fc57b-c5e6-471b-a180-e37ed28a38e2}" />
-        <Dependent key="8" type="60" displayName="Information" parentDisplayName="Opportunity" id="{669d7ea9-7560-401a-a02f-76cd34c19c67}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="10" type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2008.2008)" />
-        <Dependent key="11" type="60" displayName="New Form" parentDisplayName="Lead" id="{15103cc6-fac7-4ba0-acae-180f13906039}" />
+        <Required key="3" type="66" schemaName="Intelligence.BusinessCardReaderControl.BusinessCardReader" displayName="Intelligence.BusinessCardReaderControl.BusinessCardReader" solution="BaseCustomControlsCore (9.0.2008.2008)" />
+        <Dependent key="4" type="60" displayName="New Form" parentDisplayName="Lead" id="{15103cc6-fac7-4ba0-acae-180f13906039}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
